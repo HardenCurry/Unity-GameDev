@@ -1,0 +1,420 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'ko' Physical Memory: 16343 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity hub\Unity\2020.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/유니티 프로젝트/똥피하기
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50291
+Successfully changed project path to: D:/유니티 프로젝트/똥피하기
+D:/유니티 프로젝트/똥피하기
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path D:/Unity hub/Unity/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/유니티 프로젝트/똥피하기/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   
+    VRAM:     4043 MB
+    Driver:   27.21.14.6677
+Initialize mono
+Mono path[0] = 'D:/Unity hub/Unity/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity hub/Unity/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity hub/Unity/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity hub/Unity/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001034 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.223 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001053 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2268.
+Total: 2.234800 ms (FindLiveObjects: 0.185200 ms CreateObjectMapping: 0.111400 ms MarkObjects: 1.843700 ms  DeleteObjects: 0.093400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c602d4445bd9e0e517b9a7c882a2249') in 0.011638 seconds
+  Import took 0.014779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Wizard - 2D Character
+  artifactKey: Guid(5ede7f3934b02e2438de8f80a501dd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard - 2D Character using Guid(5ede7f3934b02e2438de8f80a501dd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220e1a7d2fb24392088c42f82e24f752') in 0.008028 seconds
+  Import took 0.010848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c602d4445bd9e0e517b9a7c882a2249') in 0.003730 seconds
+  Import took 0.007385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Animation/Player.anim
+  artifactKey: Guid(e0e3cc87e2b6cf64791792a0e7f9da49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player.anim using Guid(e0e3cc87e2b6cf64791792a0e7f9da49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381d9989710c30c8db3bff607c927ea5') in 0.054111 seconds
+  Import took 0.057556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(580cbeb28197c0146ad5c2ab6e756444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(580cbeb28197c0146ad5c2ab6e756444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217eaaecfaa8439b32f235fd6016ebc1') in 0.005644 seconds
+  Import took 0.008828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.535106 seconds.
+  path: Assets/HealthHeartSystem/Fonts
+  artifactKey: Guid(7364898a6d32dc749b5c01380ed27b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem/Fonts using Guid(7364898a6d32dc749b5c01380ed27b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50142e295c03da146a1ba5173f08d1b0') in 0.005975 seconds
+  Import took 0.009138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.488824 seconds.
+  path: Assets/HealthHeartSystem/Graphics
+  artifactKey: Guid(e0066cc1b03bd9646814a7e9c46a4ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem/Graphics using Guid(e0066cc1b03bd9646814a7e9c46a4ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b2295ed3b838633238db318bcc3d51') in 0.006452 seconds
+  Import took 0.009724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.846738 seconds.
+  path: Assets/HealthHeartSystem/Prefabs
+  artifactKey: Guid(27764678eb252ed46870bc3416c6a52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem/Prefabs using Guid(27764678eb252ed46870bc3416c6a52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5e8eb2519f44d2cf35eb3f9ac56dde') in 0.007186 seconds
+  Import took 0.009958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.112458 seconds.
+  path: Assets/HealthHeartSystem/Scripts/HealthBarController.cs
+  artifactKey: Guid(5c0f78e4acfe21a4594760304164796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem/Scripts/HealthBarController.cs using Guid(5c0f78e4acfe21a4594760304164796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04827eec6b059f61062d9cdc1fea667') in 0.007006 seconds
+  Import took 0.009668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013358 seconds.
+  path: Assets/HealthHeartSystem/Scripts/HealthBarController.cs
+  artifactKey: Guid(5c0f78e4acfe21a4594760304164796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem/Scripts/HealthBarController.cs using Guid(5c0f78e4acfe21a4594760304164796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04827eec6b059f61062d9cdc1fea667') in 0.001778 seconds
+  Import took 0.004589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.702222 seconds.
+  path: Assets/HealthHeartSystem/Scripts/HealthBarHUDTester.cs
+  artifactKey: Guid(dcf2586f5b209a045af9dff869aa39f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem/Scripts/HealthBarHUDTester.cs using Guid(dcf2586f5b209a045af9dff869aa39f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cabe0824e5257d3c0966e6fa47576c') in 0.005628 seconds
+  Import took 0.008596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.782875 seconds.
+  path: Assets/HealthHeartSystem/Scripts/PlayerStats.cs
+  artifactKey: Guid(ec0b64c0b1dccc64d91eee52d85267bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem/Scripts/PlayerStats.cs using Guid(ec0b64c0b1dccc64d91eee52d85267bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4944bc68c9ee9eb243581b62fbcd0e') in 0.005336 seconds
+  Import took 0.008159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/HealthHeartSystem/Scripts/PlayerStats.cs
+  artifactKey: Guid(ec0b64c0b1dccc64d91eee52d85267bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem/Scripts/PlayerStats.cs using Guid(ec0b64c0b1dccc64d91eee52d85267bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4944bc68c9ee9eb243581b62fbcd0e') in 0.002302 seconds
+  Import took 0.005572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.904991 seconds.
+  path: Assets/JoyStick
+  artifactKey: Guid(7addccaab769cc84fa71b7191e59b5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JoyStick using Guid(7addccaab769cc84fa71b7191e59b5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc1af0fa0d2845b0282fbeba56128da') in 0.007451 seconds
+  Import took 0.011093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.012159 seconds.
+  path: Assets/Script/distance.cs
+  artifactKey: Guid(0766a382a3b32974388bad000ff36629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/distance.cs using Guid(0766a382a3b32974388bad000ff36629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7542f9b3c4d81178efec7386705713ae') in 0.006794 seconds
+  Import took 0.009622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003275 seconds.
+  path: Assets/Script/distance.cs
+  artifactKey: Guid(0766a382a3b32974388bad000ff36629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/distance.cs using Guid(0766a382a3b32974388bad000ff36629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7542f9b3c4d81178efec7386705713ae') in 0.001846 seconds
+  Import took 0.005150 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 2.068200 ms (FindLiveObjects: 0.265100 ms CreateObjectMapping: 0.145000 ms MarkObjects: 1.614200 ms  DeleteObjects: 0.043000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 15.888398 seconds.
+  path: Assets/Wizard - 2D Character/Demo/SimplePlayerController.cs
+  artifactKey: Guid(741f30960d63a984c904285d23069b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard - 2D Character/Demo/SimplePlayerController.cs using Guid(741f30960d63a984c904285d23069b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7536579c8ff4164695325eaa52a58e7') in 0.007337 seconds
+  Import took 0.010160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028945 seconds.
+  path: Assets/Wizard - 2D Character/Demo/SimplePlayerController.cs
+  artifactKey: Guid(741f30960d63a984c904285d23069b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard - 2D Character/Demo/SimplePlayerController.cs using Guid(741f30960d63a984c904285d23069b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7536579c8ff4164695325eaa52a58e7') in 0.001809 seconds
+  Import took 0.005341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.582255 seconds.
+  path: Assets/Wizard - 2D Character/Wizard.prefab
+  artifactKey: Guid(ebea5f8b8163f9a4ab9d9a1b45444e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard - 2D Character/Wizard.prefab using Guid(ebea5f8b8163f9a4ab9d9a1b45444e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3924e2c5acc0f9caa8b0f1ef635bc2f0') in 0.145031 seconds
+  Import took 0.148760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.562460 seconds.
+  path: Assets/Wizard - 2D Character/ReadMe.pdf
+  artifactKey: Guid(baf61394901de834995f960216ee4ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard - 2D Character/ReadMe.pdf using Guid(baf61394901de834995f960216ee4ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7893a91667bd68f63f4c1279b0e3882d') in 0.011264 seconds
+  Import took 0.014155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.400397 seconds.
+  path: Assets/Wizard - 2D Character/Sprites/Square.png
+  artifactKey: Guid(6c8a9b485bd490c4d8f67a2b1c80629e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard - 2D Character/Sprites/Square.png using Guid(6c8a9b485bd490c4d8f67a2b1c80629e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6cdefafb66b34d8f159c69458325b1') in 0.034270 seconds
+  Import took 0.037244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018942 seconds.
+  path: Assets/Wizard - 2D Character/Sprites/Square.png
+  artifactKey: Guid(6c8a9b485bd490c4d8f67a2b1c80629e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard - 2D Character/Sprites/Square.png using Guid(6c8a9b485bd490c4d8f67a2b1c80629e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6cdefafb66b34d8f159c69458325b1') in 0.008779 seconds
+  Import took 0.011980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.295118 seconds.
+  path: Assets/Wizard - 2D Character/Sprites/Skeletal.psb
+  artifactKey: Guid(dde2588f5e0bc7b4ab407c1ae99bd5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard - 2D Character/Sprites/Skeletal.psb using Guid(dde2588f5e0bc7b4ab407c1ae99bd5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4b75470aaaa6d43e6e3bba1ded3e31') in 0.149482 seconds
+  Import took 0.153128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.251846 seconds.
+  path: Assets/Wizard - 2D Character/Sprites
+  artifactKey: Guid(7ecc9c8faf7c8144d84f4e764b0ef9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard - 2D Character/Sprites using Guid(7ecc9c8faf7c8144d84f4e764b0ef9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f27d5483bd858405cf5047f854a49bf') in 0.006134 seconds
+  Import took 0.009452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.365042 seconds.
+  path: Assets/Wizard - 2D Character/Demo/WizDemo1.cs
+  artifactKey: Guid(e25edea5f4d77c74d828874c56cf37e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard - 2D Character/Demo/WizDemo1.cs using Guid(e25edea5f4d77c74d828874c56cf37e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f41344ac98b2578d2366203c1882d9') in 0.005228 seconds
+  Import took 0.008514 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.868 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2315.
+Total: 2.323500 ms (FindLiveObjects: 0.383800 ms CreateObjectMapping: 0.169100 ms MarkObjects: 1.751500 ms  DeleteObjects: 0.016800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000719 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.908 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2318.
+Total: 2.030100 ms (FindLiveObjects: 0.217300 ms CreateObjectMapping: 0.099200 ms MarkObjects: 1.673700 ms  DeleteObjects: 0.038500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 14.302014 seconds.
+  path: Assets/HealthHeartSystem/Scripts
+  artifactKey: Guid(05fab8bcb2bc0d141b51be88e3d32009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem/Scripts using Guid(05fab8bcb2bc0d141b51be88e3d32009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854066cc307801b8ea35124ceeda4744') in 0.007419 seconds
+  Import took 0.010446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005862 seconds.
+  path: Assets/HealthHeartSystem/Scripts
+  artifactKey: Guid(05fab8bcb2bc0d141b51be88e3d32009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem/Scripts using Guid(05fab8bcb2bc0d141b51be88e3d32009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854066cc307801b8ea35124ceeda4744') in 0.001655 seconds
+  Import took 0.005261 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000740 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2319.
+Total: 1.760500 ms (FindLiveObjects: 0.178800 ms CreateObjectMapping: 0.064000 ms MarkObjects: 1.500600 ms  DeleteObjects: 0.015600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 4.637269 seconds.
+  path: Assets/HealthHeartSystem/readme.txt
+  artifactKey: Guid(780e5d2cf97f26e4596b2505309867ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem/readme.txt using Guid(780e5d2cf97f26e4596b2505309867ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb1cb721b0a54bf29ddf968759b74d3') in 0.163777 seconds
+  Import took 0.166618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.720981 seconds.
+  path: Assets/HealthHeartSystem/Scenes
+  artifactKey: Guid(6ba54bdb728a0c14aaa935bfaf25a8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem/Scenes using Guid(6ba54bdb728a0c14aaa935bfaf25a8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26494b86749cfbc4ea56c512a164962') in 0.006252 seconds
+  Import took 0.009633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.898938 seconds.
+  path: Assets/HealthHeartSystem
+  artifactKey: Guid(e12b4e725ead9404fbcc9f7fba79f243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem using Guid(e12b4e725ead9404fbcc9f7fba79f243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c901baaaef8fafe9a4dfcf1966dc8b14') in 0.006439 seconds
+  Import took 0.010003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.554973 seconds.
+  path: Assets/Wizard - 2D Character/Demo
+  artifactKey: Guid(5e509a90428843f42a4f5d3b4ffa5c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard - 2D Character/Demo using Guid(5e509a90428843f42a4f5d3b4ffa5c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06596f33f89f4a9a725f0eb9d7f46dc1') in 0.006410 seconds
+  Import took 0.009454 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 52.3 MB.
+System memory in use after: 52.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2319.
+Total: 2.255900 ms (FindLiveObjects: 0.211600 ms CreateObjectMapping: 0.073100 ms MarkObjects: 1.954800 ms  DeleteObjects: 0.014800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
