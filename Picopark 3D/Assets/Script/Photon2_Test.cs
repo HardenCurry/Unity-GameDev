@@ -21,13 +21,15 @@ public class Photon2_Test : MonoBehaviourPunCallbacks
         Open_OnlineMode_Panel(true);
         StartBtn.SetActive(false);
         PhotonNetwork.ConnectUsingSettings();
-        PhotonNetwork.AutomaticallySyncScene = true;
+        PhotonNetwork.AutomaticallySyncScene = true;        
     }
     void Update() => Network_Status.text = PhotonNetwork.NetworkClientState.ToString();
 
     public override void OnConnectedToMaster()
     {
         Debug.Log("Connected to master");
+        //temporary setting
+        PhotonNetwork.JoinOrCreateRoom("Room", new RoomOptions { MaxPlayers = 2 }, null);
     }
 
     public void CreateRoom()
@@ -64,9 +66,12 @@ public class Photon2_Test : MonoBehaviourPunCallbacks
             StartBtn.SetActive(true);
         }
         else StartBtn.SetActive(false);
-
-        RoomName_tmp.text = PhotonNetwork.CurrentRoom.Name;
-        PhotonNetwork.Instantiate("Player_Photon", Vector3.zero, Quaternion.identity);
+        //temp
+        //RoomName_tmp.text = PhotonNetwork.CurrentRoom.Name;
+        GameObject OBJ = PhotonNetwork.Instantiate("Player_Photon", Vector3.zero, Quaternion.identity);
+        Player_CT player = OBJ.GetComponent<Player_CT>();
+        int num = PhotonNetwork.CurrentRoom.PlayerCount - 1;
+        player.P_num = (Player_Num)num;      
     }
     public override void OnCreateRoomFailed(short returnCode, string message) => DebugError_tmp.text = "CreateRoom Failed" + ", " + message;
     public override void OnJoinRoomFailed(short returnCode, string message) => DebugError_tmp.text = "JoinRoom Failed" + ", " + message;

@@ -39,6 +39,15 @@ MonoBehaviour:
   - DestroySpaceship
   - Fire
   - RespawnSpaceship
+  - Jump
+  - Interactive
+  - Move
+  - Respawn
+  - Turnaround
+  - Speed_Velo
+  - SpeedVelo
+  - IsJump
+  - P_Init
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

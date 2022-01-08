@@ -37,7 +37,7 @@ public class Scene_Mng : MonoBehaviour
     {
         SceneManager.LoadScene(_sceneName);
     }
-    public void ClearStageCt()
+    public void ClearStageCt() //When Player enter Door
     {
         playerClearCt++;
         if (playerClearCt == Player_Mng.Instance.playersCount)
